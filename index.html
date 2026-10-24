@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Middleman — Home Services in Aurora, CO</title>
+<meta name="description" content="Home services in Aurora, Colorado. You need it done. We know someone. Book by email.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="#">THE MIDDLEMAN</a>
+    <a class="btn btn-gold" href="#book">Book Now</a>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container">
+    <p class="eyebrow">Aurora, Colorado</p>
+    <h1>You need it done.<br>We know someone.</h1>
+    <p class="hero-sub">Reliable home services, booked in one email. We send a trusted local pro to your door — you pay after the work is done.</p>
+    <a class="btn btn-gold btn-lg" href="#book">Book a Service</a>
+    <p class="hero-note">No accounts. No apps. No payment up front.</p>
+  </div>
+</section>
+
+<section class="trust">
+  <div class="container trust-row">
+    <span>Trusted local pros</span>
+    <span>Clear starting prices</span>
+    <span>Pay after it's done</span>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2>How it works</h2>
+    <div class="steps">
+      <div class="step"><div class="step-num">1</div><h3>Tell us what you need</h3><p>Pick a service and send a booking request by email.</p></div>
+      <div class="step"><div class="step-num">2</div><h3>We send a trusted pro</h3><p>We match you with a vetted local worker and confirm a time.</p></div>
+      <div class="step"><div class="step-num">3</div><h3>You pay after it's done</h3><p>No payment up front. Happy with the work? Then you pay.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container">
+    <h2>Services</h2>
+    <p class="section-sub">Starting prices. Final price confirmed before any work begins.</p>
+    <div class="services">
+      <div class="card"><h3>Pressure Washing</h3><div class="price">from $150</div><p>Driveways, patios, and walkways washed clean.</p><button class="btn btn-navy btn-block" data-service="Pressure Washing">Book</button></div>
+      <div class="card"><h3>Snow Removal</h3><div class="price">from $40</div><p>Driveways and sidewalks cleared, fast.</p><button class="btn btn-navy btn-block" data-service="Snow Removal">Book</button></div>
+      <div class="card"><h3>Lawn Care</h3><div class="price">from $45</div><p>Mowing and basic yard care.</p><button class="btn btn-navy btn-block" data-service="Lawn Care">Book</button></div>
+      <div class="card"><h3>Leaf Removal</h3><div class="price">from $50</div><p>Yard cleanup and leaf haul-away.</p><button class="btn btn-navy btn-block" data-service="Leaf Removal">Book</button></div>
+      <div class="card"><h3>Holiday Light Installation</h3><div class="price">Custom quote</div><p>We hang the lights — you enjoy them.</p><button class="btn btn-navy btn-block" data-service="Holiday Light Installation">Book</button></div>
+      <div class="card"><h3>House Cleaning</h3><div class="price">from $130</div><p>Standard home cleaning by trusted cleaners.</p><button class="btn btn-navy btn-block" data-service="House Cleaning">Book</button></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="book">
+  <div class="container container-narrow">
+    <h2>Book a service</h2>
+    <p class="section-sub">Fill this in and hit send — it opens your email with the booking already written.</p>
+    <form id="bookingForm" class="form">
+      <label>Your name
+        <input type="text" id="fName" required placeholder="Full name" autocomplete="name">
+      </label>
+      <label>Your phone
+        <input type="tel" id="fPhone" required placeholder="Phone number" autocomplete="tel">
+      </label>
+      <label>Service
+        <select id="fService" required>
+          <option value="">Choose a service…</option>
+          <option>Pressure Washing</option>
+          <option>Snow Removal</option>
+          <option>Lawn Care</option>
+          <option>Leaf Removal</option>
+          <option>Holiday Light Installation</option>
+          <option>House Cleaning</option>
+        </select>
+      </label>
+      <label>Address
+        <input type="text" id="fAddress" required placeholder="Street address, Aurora, CO" autocomplete="street-address">
+      </label>
+      <label>Preferred date
+        <input type="date" id="fDate">
+      </label>
+      <label>Job details
+        <textarea id="fDetails" rows="4" placeholder="Tell us about the job — size, condition, anything we should know"></textarea>
+      </label>
+      <button class="btn btn-gold btn-lg" type="submit">Send Booking Request</button>
+      <div id="formNote" class="form-note" hidden>Your email app is opening — hit send to complete your booking request. You can also email us directly at dawudjunaidwork@gmail.com.</div>
+    </form>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container">
+    <h2>Contact</h2>
+    <p class="section-sub">Questions, bookings, accidents, reports — everything by email.</p>
+    <div class="contact-card">
+      <h3>Email us</h3>
+      <a href="mailto:dawudjunaidwork@gmail.com">dawudjunaidwork@gmail.com</a>
+      <p>We reply as soon as we can.</p>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <p>Serving Aurora, Colorado</p>
+    <p>The Middleman — You need it done. We know someone.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

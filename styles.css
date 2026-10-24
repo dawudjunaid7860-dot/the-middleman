@@ -1,0 +1,60 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; color: #16202e; line-height: 1.6; background: #ffffff; }
+a { color: #0f2a52; }
+.container { max-width: 960px; margin: 0 auto; padding: 0 20px; }
+.container-narrow { max-width: 640px; }
+
+.topbar { background: #0f2a52; position: sticky; top: 0; z-index: 10; }
+.topbar-inner { max-width: 960px; margin: 0 auto; padding: 14px 20px; display: flex; justify-content: space-between; align-items: center; }
+.brand { color: #ffffff; font-weight: 800; letter-spacing: 1.5px; font-size: 18px; text-decoration: none; }
+
+.btn { display: inline-block; border: none; cursor: pointer; font-weight: 700; font-size: 16px; padding: 12px 22px; border-radius: 999px; text-decoration: none; text-align: center; }
+.btn-gold { background: #e8a317; color: #16202e; }
+.btn-navy { background: #0f2a52; color: #ffffff; }
+.btn-lg { font-size: 18px; padding: 15px 30px; }
+.btn-block { width: 100%; }
+
+.hero { background: #0f2a52; color: #ffffff; padding: 64px 0 56px; text-align: center; }
+.eyebrow { text-transform: uppercase; letter-spacing: 2px; font-size: 13px; font-weight: 700; color: #e8a317; margin-bottom: 14px; }
+.hero h1 { font-size: 44px; line-height: 1.15; margin-bottom: 16px; }
+.hero-sub { font-size: 19px; max-width: 620px; margin: 0 auto 26px; color: #d7deea; }
+.hero-note { margin-top: 18px; font-size: 14px; color: #9fb0cc; }
+
+.trust { background: #f4f6fa; border-bottom: 1px solid #e2e7ef; }
+.trust-row { display: flex; justify-content: space-between; gap: 12px; padding: 16px 20px; font-weight: 700; font-size: 15px; text-align: center; }
+.trust-row span { flex: 1; }
+
+.section { padding: 56px 0; }
+.section-alt { background: #f4f6fa; }
+.section h2 { font-size: 30px; text-align: center; margin-bottom: 10px; }
+.section-sub { text-align: center; color: #5a6a80; margin-bottom: 28px; }
+
+.steps { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; }
+.step { background: #ffffff; border: 1px solid #e2e7ef; border-radius: 16px; padding: 24px; text-align: center; }
+.step-num { font-size: 30px; font-weight: 800; color: #e8a317; }
+.step h3 { margin: 8px 0 6px; }
+.step p { color: #5a6a80; }
+
+.services { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.card { background: #ffffff; border: 1px solid #e2e7ef; border-radius: 16px; padding: 24px; }
+.card h3 { font-size: 20px; }
+.card .price { font-size: 22px; font-weight: 800; color: #0f2a52; margin: 6px 0; }
+.card p { color: #5a6a80; margin-bottom: 16px; }
+
+.form { background: #ffffff; border: 1px solid #e2e7ef; border-radius: 16px; padding: 28px; display: grid; gap: 16px; }
+.form label { font-weight: 700; font-size: 15px; display: block; }
+.form input, .form select, .form textarea { width: 100%; padding: 12px; font-size: 16px; border: 2px solid #d5dae6; border-radius: 10px; margin-top: 6px; font-family: inherit; }
+.form-note { background: #eaf7ec; border-radius: 12px; padding: 16px; font-weight: 600; }
+
+.contact-card { background: #ffffff; border: 1px solid #e2e7ef; border-radius: 16px; padding: 32px; text-align: center; max-width: 560px; margin: 0 auto; }
+.contact-card a { font-size: 20px; font-weight: 700; word-break: break-all; }
+.contact-card p { color: #5a6a80; margin-top: 8px; }
+
+.footer { background: #0f2a52; color: #9fb0cc; text-align: center; padding: 32px 0; font-size: 14px; }
+
+@media (max-width: 640px) {
+  .hero h1 { font-size: 32px; }
+  .steps, .services { grid-template-columns: 1fr; }
+  .trust-row { flex-direction: column; }
+  .section { padding: 40px 0; }
+}
