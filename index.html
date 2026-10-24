@@ -15,6 +15,8 @@
   </div>
 </header>
 
+<div class="banner">Now booking for winter: Snow Removal — get your driveway cleared all season.</div>
+
 <section class="hero">
   <div class="container">
     <p class="eyebrow">Aurora, Colorado</p>
@@ -83,6 +85,11 @@
           <option>Something else (custom service)</option>
         </select>
       </label>
+      <div id="customServiceWrap" hidden>
+        <label>What service do you need?
+          <input type="text" id="fCustomService" placeholder="Type the service you need, e.g. fence repair">
+        </label>
+      </div>
       <label>Address
         <input type="text" id="fAddress" required placeholder="Street address, Aurora, CO" autocomplete="street-address">
       </label>
@@ -99,13 +106,84 @@
 </section>
 
 <section class="section section-alt">
+  <div class="container container-narrow">
+    <h2>Questions, answered</h2>
+    <div class="faq-item"><h3>Do I pay upfront?</h3><p>No. You pay after the work is done and you're happy with it.</p></div>
+    <div class="faq-item"><h3>Who are the workers?</h3><p>Trusted local pros we match to your job. We confirm the time with you before anyone comes out.</p></div>
+    <div class="faq-item"><h3>What if I'm not happy with the work?</h3><p>Email us and we'll make it right.</p></div>
+    <div class="faq-item"><h3>How do I book?</h3><p>Fill in the booking form above, or email us directly. We'll reply to confirm your booking and the final price before any work begins.</p></div>
+    <div class="faq-item"><h3>What if the service I need isn't listed?</h3><p>Pick "Something else" in the booking form and type what you need. If we can find a trusted pro, we'll do it.</p></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container container-narrow">
+    <h2>Where we work</h2>
+    <p class="section-sub">Serving Aurora, Colorado and nearby areas. Not sure if we cover your area? Email us and ask — we'll let you know.</p>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container">
+    <h2>Recent work</h2>
+    <div class="placeholder-box">
+      <p>Before and after photos from our recent jobs will show up here soon.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2>What customers say</h2>
+    <div class="placeholder-box">
+      <p>Reviews from our customers will appear here.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container">
+    <div class="referral">
+      <h3>Refer a friend, you both save $10</h3>
+      <p>When someone you refer books a service, you both get $10 off your next booking. Just have them mention your name when they book.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="work-with-us">
+  <div class="container container-narrow">
+    <h2>Want to work with us?</h2>
+    <p class="section-sub">If you're a local pro and want jobs sent your way, apply here.</p>
+    <form id="workerForm" class="form">
+      <label>Your name
+        <input type="text" id="wName" required placeholder="Full name" autocomplete="name">
+      </label>
+      <label>Your phone
+        <input type="tel" id="wPhone" required placeholder="Phone number" autocomplete="tel">
+      </label>
+      <label>Services you can do
+        <input type="text" id="wServices" required placeholder="e.g. lawn care, snow removal, cleaning">
+      </label>
+      <label>Areas you cover
+        <input type="text" id="wArea" placeholder="e.g. Aurora, Centennial">
+      </label>
+      <label>Experience
+        <textarea id="wExp" rows="3" placeholder="Tell us briefly about your experience"></textarea>
+      </label>
+      <button class="btn btn-navy btn-lg" type="submit">Apply to Work With Us</button>
+      <div id="workerNote" class="form-note" hidden>Your email app is opening — hit send to complete your application. You can also email us directly at dawudjunaidwork@gmail.com.</div>
+    </form>
+  </div>
+</section>
+
+<section class="section section-alt">
   <div class="container">
     <h2>Contact</h2>
     <p class="section-sub">Questions, bookings, accidents, reports — everything by email.</p>
     <div class="contact-card">
       <h3>Email us</h3>
       <a href="mailto:dawudjunaidwork@gmail.com">dawudjunaidwork@gmail.com</a>
-      <p>We reply as soon as we can.</p>
+      <p>We aim to reply within 24 hours.</p>
     </div>
   </div>
 </section>

@@ -52,6 +52,18 @@ a { color: #0f2a52; }
 
 .footer { background: #0f2a52; color: #9fb0cc; text-align: center; padding: 32px 0; font-size: 14px; }
 
+.banner { background: #e8a317; color: #16202e; text-align: center; font-weight: 700; padding: 12px 20px; font-size: 15px; }
+
+.faq-item { background: #ffffff; border: 1px solid #e2e7ef; border-radius: 12px; padding: 18px 22px; margin-bottom: 12px; }
+.faq-item h3 { font-size: 17px; margin-bottom: 4px; }
+.faq-item p { color: #5a6a80; }
+
+.placeholder-box { background: #ffffff; border: 2px dashed #d5dae6; border-radius: 16px; padding: 28px; text-align: center; color: #5a6a80; max-width: 640px; margin: 0 auto; }
+
+.referral { background: #0f2a52; color: #ffffff; border-radius: 16px; padding: 28px; text-align: center; max-width: 640px; margin: 0 auto; }
+.referral h3 { color: #e8a317; font-size: 22px; margin-bottom: 8px; }
+.referral p { color: #d7deea; }
+
 @media (max-width: 640px) {
   .hero h1 { font-size: 32px; }
   .steps, .services { grid-template-columns: 1fr; }
